@@ -122,7 +122,7 @@ public class CryptoFragment extends Fragment {
 
         OkHttpClient client = new OkHttpClient().newBuilder().build();
 
-        /* This APIKEY is provided by cryptocompare.com */
+        /* This APIKEY is provided by cryptocompare.com to return real-time price feeds */
         Request request = new Request.Builder()
                 .url("https://min-api.cryptocompare.com/data/price?fsym=" + spin1Str + "&tsyms=" + spin2Str)
                 .get()

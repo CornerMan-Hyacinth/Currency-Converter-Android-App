@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabs = binding.tabs;
         FloatingActionButton fab = binding.fab;
 
+//      tabs - FIAT & CRYPTO
         new TabLayoutMediator(tabs, viewPager, new TabLayoutMediator.TabConfigurationStrategy() {
             @Override
             public void onConfigureTab(@NonNull Tab tab, int position) {
